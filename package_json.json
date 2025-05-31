@@ -1,0 +1,23 @@
+{
+  "name": "solvedet-serverless",
+  "version": "1.0.0",
+  "description": "SolveDet serverless application processing",
+  "main": "api/process-application.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["serverless", "forms", "email", "nodejs"],
+  "author": "SolveDet",
+  "license": "MIT"
+}
